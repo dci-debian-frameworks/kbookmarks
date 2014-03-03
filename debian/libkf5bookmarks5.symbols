@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Bookmarks.so.4 libkf5bookmarks4 #MINVER#
+libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
  _ZN13KBookmarkMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
