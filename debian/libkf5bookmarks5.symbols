@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
@@ -187,6 +187,9 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN23KIEBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN23KNSBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4.96.0
  _ZN23KNSBookmarkExporterImpl7setUtf8Eb@Base 4.96.0
+ _ZN23KNSBookmarkImporterImpl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.98.0
+ _ZN23KNSBookmarkImporterImpl11qt_metacastEPKc@Base 4.98.0
+ _ZN23KNSBookmarkImporterImpl16staticMetaObjectE@Base 4.98.0
  _ZN23KNSBookmarkImporterImpl5parseEv@Base 4.96.0
  _ZN23KNSBookmarkImporterImplD0Ev@Base 4.96.0
  _ZN23KNSBookmarkImporterImplD1Ev@Base 4.96.0
@@ -219,6 +222,9 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN25KXBELBookmarkImporterImplD1Ev@Base 4.96.0
  _ZN25KXBELBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN26KOperaBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4.96.0
+ _ZN26KOperaBookmarkImporterImpl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.98.0
+ _ZN26KOperaBookmarkImporterImpl11qt_metacastEPKc@Base 4.98.0
+ _ZN26KOperaBookmarkImporterImpl16staticMetaObjectE@Base 4.98.0
  _ZN26KOperaBookmarkImporterImpl5parseEv@Base 4.96.0
  _ZN26KOperaBookmarkImporterImplD0Ev@Base 4.96.0
  _ZN26KOperaBookmarkImporterImplD1Ev@Base 4.96.0
@@ -288,10 +294,12 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZNK21KBookmarkImporterBase10metaObjectEv@Base 4.96.0
  _ZNK23KIEBookmarkImporterImpl19findDefaultLocationEb@Base 4.96.0
  _ZNK23KNSBookmarkExporterImpl14folderAsStringERK14KBookmarkGroup@Base 4.96.0
+ _ZNK23KNSBookmarkImporterImpl10metaObjectEv@Base 4.98.0
  _ZNK23KNSBookmarkImporterImpl19findDefaultLocationEb@Base 4.96.0
  _ZNK23KonqBookmarkContextMenu10metaObjectEv@Base 4.96.0
  _ZNK24KBookmarkActionInterface8bookmarkEv@Base 4.96.0
  _ZNK25KXBELBookmarkImporterImpl10metaObjectEv@Base 4.96.0
+ _ZNK26KOperaBookmarkImporterImpl10metaObjectEv@Base 4.98.0
  _ZNK26KOperaBookmarkImporterImpl19findDefaultLocationEb@Base 4.96.0
  _ZNK9KBookmark11descriptionEv@Base 4.96.0
  _ZNK9KBookmark11isSeparatorEv@Base 4.96.0
