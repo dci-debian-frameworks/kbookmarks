@@ -39,7 +39,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kbookmarks
 Package: libkf5bookmarks5
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5bookmarks5-data (= ${source:Version})
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
@@ -48,7 +48,7 @@ Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5bookmarks5-data
 Architecture: any
-Multi-Arch: same
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt library with support for bookmarks and the XBEL format.
