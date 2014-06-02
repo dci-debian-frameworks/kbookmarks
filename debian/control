@@ -36,6 +36,16 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kbookmarks
 
+Package: libkf5bookmarks-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5bookmarks5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt library with support for bookmarks and the XBEL format.
+ KBookmarks lets you access and manipulate bookmarks stored using the
+ XBEL format.
+ .
+ Contains development files for kbookmarks.
+
 Package: libkf5bookmarks5
 Section: libdevel
 Architecture: any
