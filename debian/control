@@ -64,8 +64,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5bookmarks5-data
-Architecture: any
-Multi-Arch: foreign
+Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt library with support for bookmarks and the XBEL format.

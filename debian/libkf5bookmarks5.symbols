@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
 libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
@@ -255,6 +255,7 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN9KBookmarkC1Ev@Base 4.96.0
  _ZN9KBookmarkC2ERK11QDomElement@Base 4.96.0
  _ZN9KBookmarkC2Ev@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  _ZNK13KBookmarkMenu10metaObjectEv@Base 4.96.0
  _ZNK13KBookmarkMenu10parentMenuEv@Base 4.96.0
  _ZNK13KBookmarkMenu13parentAddressEv@Base 4.96.0
