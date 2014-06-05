@@ -52,7 +52,6 @@ Description: Qt library with support for bookmarks and the XBEL format.
  Contains development files for kbookmarks.
 
 Package: libkf5bookmarks5
-Section: libdevel
 Architecture: any
 Depends: libkf5bookmarks5-data (= ${source:Version}),
          ${misc:Depends},
