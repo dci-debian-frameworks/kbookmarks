@@ -10,6 +10,10 @@ kbookmarks (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Refresh libkf5bookmarks5.symbols 
   * Change libkf5bookmarks5-data to Arch:all as it only contains translations
 
+  [ Harald Sitter ]
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:34:12 +0100
 
 kbookmarks (4.99.0-0ubuntu1) trusty; urgency=medium
