@@ -16,6 +16,7 @@ kbookmarks (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove incorrect Section fields
   * Rename libkf5bookmarks5-data to libkf5bookmarks-data
     + Breaks+Replaces Previous package
+    + Make multiarch:foreign to fully multiarch the dep chain to the lib
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:34:12 +0100
 
