@@ -56,12 +56,24 @@ Description: Qt library with support for bookmarks and the XBEL format.
 Package: libkf5bookmarks5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
+Depends: libkf5bookmarks-data (= ${source:Version}),
+         ${misc:Depends},
          ${shlibs:Depends}
-Replaces: libkf5bookmarks-data
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
+
+Package: libkf5bookmarks-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5bookmarks5-data
+Replaces: libkf5bookmarks5-data
+Description: Qt library with support for bookmarks and the XBEL format.
+ KBookmarks lets you access and manipulate bookmarks stored using the
+ XBEL format.
+ .
+ This package contains the translations.
 
 Package: libkf5bookmarks5-dbg
 Architecture: any
