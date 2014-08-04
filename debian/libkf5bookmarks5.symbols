@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
@@ -53,6 +53,7 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN15KBookmarkAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN15KBookmarkAction11qt_metacastEPKc@Base 4.96.0
  _ZN15KBookmarkAction12slotSelectedE6QFlagsIN2Qt11MouseButtonEES0_INS1_16KeyboardModifierEE@Base 4.96.0
+ _ZN15KBookmarkAction13slotTriggeredEv@Base 5.1.0
  _ZN15KBookmarkAction16staticMetaObjectE@Base 4.96.0
  _ZN15KBookmarkActionC1ERK9KBookmarkP14KBookmarkOwnerP7QObject@Base 4.96.0
  _ZN15KBookmarkActionC2ERK9KBookmarkP14KBookmarkOwnerP7QObject@Base 4.96.0
