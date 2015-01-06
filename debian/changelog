@@ -1,8 +1,8 @@
-kbookmarks (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+kbookmarks (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 12:58:49 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 19:51:58 +0100
 
 kbookmarks (5.5.0-0ubuntu1) vivid; urgency=medium
 
