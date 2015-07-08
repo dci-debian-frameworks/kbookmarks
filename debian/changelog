@@ -1,19 +1,22 @@
-<<<<<<< HEAD
-kbookmarks (5.11.0-1) unstable; urgency=medium
-=======
 kbookmarks (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
+  * clean up merge. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:05:47 -0700
 
+kbookmarks (5.11.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 22:20:18 +0200
+
 kbookmarks (5.10.0-0ubuntu1) wily; urgency=medium
->>>>>>> origin/kubuntu_vivid_backports
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
-  * New upstream release (5.11.0).
-
+ 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 22:20:18 +0200
 
 kbookmarks (5.10.0-0ubuntu1) wily; urgency=medium
