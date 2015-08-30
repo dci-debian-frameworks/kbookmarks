@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 hurd-i386
 libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
@@ -183,18 +183,18 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN23KBookmarkGroupTraverserD2Ev@Base 4.96.0
  _ZN23KIEBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4.96.0
  _ZN23KIEBookmarkImporterImpl5parseEv@Base 4.96.0
- _ZN23KIEBookmarkImporterImplD0Ev@Base 4.96.0
- _ZN23KIEBookmarkImporterImplD1Ev@Base 4.96.0
- _ZN23KIEBookmarkImporterImplD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KIEBookmarkImporterImplD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KIEBookmarkImporterImplD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KIEBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN23KNSBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4.96.0
  _ZN23KNSBookmarkExporterImpl7setUtf8Eb@Base 4.96.0
  _ZN23KNSBookmarkImporterImpl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.98.0
  _ZN23KNSBookmarkImporterImpl11qt_metacastEPKc@Base 4.98.0
  _ZN23KNSBookmarkImporterImpl16staticMetaObjectE@Base 4.98.0
  _ZN23KNSBookmarkImporterImpl5parseEv@Base 4.96.0
- _ZN23KNSBookmarkImporterImplD0Ev@Base 4.96.0
- _ZN23KNSBookmarkImporterImplD1Ev@Base 4.96.0
- _ZN23KNSBookmarkImporterImplD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KNSBookmarkImporterImplD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KNSBookmarkImporterImplD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN23KNSBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN23KonqBookmarkContextMenu10addActionsEv@Base 4.96.0
  _ZN23KonqBookmarkContextMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN23KonqBookmarkContextMenu11qt_metacastEPKc@Base 4.96.0
@@ -219,20 +219,20 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN25KXBELBookmarkImporterImpl16staticMetaObjectE@Base 4.96.0
  _ZN25KXBELBookmarkImporterImpl5parseEv@Base 4.96.0
  _ZN25KXBELBookmarkImporterImpl5visitERK9KBookmark@Base 4.96.0
- _ZN25KXBELBookmarkImporterImplD0Ev@Base 4.96.0
- _ZN25KXBELBookmarkImporterImplD1Ev@Base 4.96.0
- _ZN25KXBELBookmarkImporterImplD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN25KXBELBookmarkImporterImplD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN25KXBELBookmarkImporterImplD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN25KXBELBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN26KOperaBookmarkExporterImpl5writeERK14KBookmarkGroup@Base 4.96.0
  _ZN26KOperaBookmarkImporterImpl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.98.0
  _ZN26KOperaBookmarkImporterImpl11qt_metacastEPKc@Base 4.98.0
  _ZN26KOperaBookmarkImporterImpl16staticMetaObjectE@Base 4.98.0
  _ZN26KOperaBookmarkImporterImpl5parseEv@Base 4.96.0
- _ZN26KOperaBookmarkImporterImplD0Ev@Base 4.96.0
- _ZN26KOperaBookmarkImporterImplD1Ev@Base 4.96.0
- _ZN26KOperaBookmarkImporterImplD2Ev@Base 4.96.0
- _ZN28KMozillaBookmarkImporterImplD0Ev@Base 4.96.0
- _ZN28KMozillaBookmarkImporterImplD1Ev@Base 4.96.0
- _ZN28KMozillaBookmarkImporterImplD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN26KOperaBookmarkImporterImplD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN26KOperaBookmarkImporterImplD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN26KOperaBookmarkImporterImplD2Ev@Base 4.96.0
+ (optional=gccinternal)_ZN28KMozillaBookmarkImporterImplD0Ev@Base 4.96.0
+ (optional=gccinternal)_ZN28KMozillaBookmarkImporterImplD1Ev@Base 4.96.0
+ (optional=gccinternal)_ZN28KMozillaBookmarkImporterImplD2Ev@Base 4.96.0
  _ZN9KBookmark11nextAddressERK7QString@Base 4.96.0
  _ZN9KBookmark11setFullTextERK7QString@Base 4.96.0
  _ZN9KBookmark11setMimeTypeERK7QString@Base 4.96.0
@@ -397,5 +397,5 @@ libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visit(KBookmark const&)@Base" 4.96.0
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visitEnter(KBookmarkGroup const&)@Base" 4.96.0
  (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::visitLeave(KBookmarkGroup const&)@Base" 4.96.0
- (c++)"non-virtual thunk to KXBELBookmarkImporterImpl::~KXBELBookmarkImporterImpl()@Base" 4.96.0
+ (c++|optional=gccinternal)"non-virtual thunk to KXBELBookmarkImporterImpl::~KXBELBookmarkImporterImpl()@Base" 4.96.0
  (c++)"non-virtual thunk to KonqBookmarkContextMenu::~KonqBookmarkContextMenu()@Base" 4.96.0
