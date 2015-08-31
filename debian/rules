@@ -9,5 +9,4 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5bookmarks5-dbg
 
 override_dh_auto_test:
-	xvfb-run -a $(overridden_command)
-
+	HOME=$$(mktemp -d) xvfb-run -a $(overridden_command)
