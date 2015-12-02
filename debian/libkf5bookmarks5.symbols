@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150917.1759 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libKF5Bookmarks.so.5 libkf5bookmarks5 #MINVER#
  _ZN13KBookmarkMenu10addActionsEv@Base 4.96.0
  _ZN13KBookmarkMenu11contextMenuEP7QAction@Base 4.96.0
