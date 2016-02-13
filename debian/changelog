@@ -1,8 +1,8 @@
-kbookmarks (5.19.0-1~) UNRELEASED; urgency=medium
+kbookmarks (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 19:00:54 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:07 +0100
 
 kbookmarks (5.18.0-1) experimental; urgency=medium
 
