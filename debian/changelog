@@ -1,6 +1,6 @@
-kbookmarks (5.20.0-1~1.gbpaba002) UNRELEASED; urgency=medium
+kbookmarks (5.20.0-1~2.gbp181805) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @aba002539ba4f9791c06c6ae558c737e4ce9c1d6 **
+  ** SNAPSHOT build @1818056ef5c39a98e6669a7c5de6d8492750113f **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kbookmarks (5.20.0-1~1.gbpaba002) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 11:06:23 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:06:19 +0200
 
 kbookmarks (5.19.0-1) experimental; urgency=medium
 
