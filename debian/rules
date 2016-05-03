@@ -4,7 +4,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libkf5bookmarks5-dbg
+	$(overridden_command) --dbgsym-migration='libkf5bookmarks5-dbg (<= 5.19.0-1~~)'
 
 override_dh_auto_test:
 	# Disable build time dh_auto_test
