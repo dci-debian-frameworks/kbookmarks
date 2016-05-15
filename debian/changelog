@@ -1,6 +1,6 @@
-kbookmarks (5.21.0-1~1.gbp13dea3) UNRELEASED; urgency=medium
+kbookmarks (5.22.0-1~1.gbp8bbfe8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @13dea33cec98a6a602e5aa2671b84fffd0792710 **
+  ** SNAPSHOT build @8bbfe84c0397725d6e7c6d107ec89c6023981cfe **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ kbookmarks (5.21.0-1~1.gbp13dea3) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +23,7 @@ kbookmarks (5.21.0-1~1.gbp13dea3) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:06:31 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:06:09 +0200
 
 kbookmarks (5.19.0-1) experimental; urgency=medium
 
