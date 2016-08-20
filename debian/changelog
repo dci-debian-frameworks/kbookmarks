@@ -1,17 +1,12 @@
-kbookmarks (5.25.0-1~2.gbp6444bc) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @6444bca0385e7b36d45de6bbb8df12ac999f2a20 **
+kbookmarks (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @14926fc7a63f94017d983a57f5b2e87a29b450f6 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:06:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:50:46 +0200
 
 kbookmarks (5.23.0-1) unstable; urgency=medium
 
