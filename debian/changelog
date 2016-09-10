@@ -1,3 +1,11 @@
+kbookmarks (5.26.0-1~1.gbpe4d86d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e4d86dbefa3557bfeb10f86adb3df47991bb27ac **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:06:57 +0200
+
 kbookmarks (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
