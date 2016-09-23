@@ -5,22 +5,22 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5codecs-dev (>= 5.19.0~),
-               libkf5config-dev (>= 5.19.0~),
-               libkf5configwidgets-dev (>= 5.19.0~),
-               libkf5coreaddons-dev (>= 5.19.0~),
-               libkf5iconthemes-dev (>= 5.19.0~),
-               libkf5widgetsaddons-dev (>= 5.19.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
-               libkf5xmlgui-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5codecs-dev (>= 5.25.0~),
+               libkf5config-dev (>= 5.25.0~),
+               libkf5configwidgets-dev (>= 5.25.0~),
+               libkf5coreaddons-dev (>= 5.25.0~),
+               libkf5iconthemes-dev (>= 5.25.0~),
+               libkf5widgetsaddons-dev (>= 5.25.0~),
+               libkf5windowsystem-dev (>= 5.7.0),
+               libkf5xmlgui-dev (>= 5.25.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
+               qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4),
                xauth,
                xvfb
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kbookmarks
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kbookmarks.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kbookmarks.git
@@ -29,16 +29,17 @@ Package: libkf5bookmarks-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5bookmarks5 (= ${binary:Version}),
-         libkf5configwidgets-dev (>= 5.19.0~),
-         libkf5iconthemes-dev (>= 5.19.0~),
-         libkf5xmlgui-dev (>= 5.19.0~),
-         qtbase5-dev (>= 5.4),
+         libkf5configwidgets-dev (>= 5.25.0~),
+         libkf5iconthemes-dev (>= 5.25.0~),
+         libkf5xmlgui-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
  .
  Contains development files for kbookmarks.
+Breaks: kio-dev (<< 5.25), libkf5kio-dev (<< 5.25)
 
 Package: libkf5bookmarks5
 Architecture: any
@@ -49,6 +50,7 @@ Depends: libkf5bookmarks-data (= ${source:Version}),
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
+Breaks: libkf5kiofilewidgets5 (<< 5.25)
 
 Package: libkf5bookmarks-data
 Architecture: all
