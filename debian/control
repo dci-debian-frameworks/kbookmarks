@@ -5,15 +5,15 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.26.0~),
-               libkf5codecs-dev (>= 5.26.0~),
-               libkf5config-dev (>= 5.26.0~),
-               libkf5configwidgets-dev (>= 5.26.0~),
-               libkf5coreaddons-dev (>= 5.26.0~),
-               libkf5iconthemes-dev (>= 5.26.0~),
-               libkf5widgetsaddons-dev (>= 5.26.0~),
+               extra-cmake-modules (>= 5.27.0~),
+               libkf5codecs-dev (>= 5.27.0~),
+               libkf5config-dev (>= 5.27.0~),
+               libkf5configwidgets-dev (>= 5.27.0~),
+               libkf5coreaddons-dev (>= 5.27.0~),
+               libkf5iconthemes-dev (>= 5.27.0~),
+               libkf5widgetsaddons-dev (>= 5.27.0~),
                libkf5windowsystem-dev (>= 5.7.0),
-               libkf5xmlgui-dev (>= 5.26.0~),
+               libkf5xmlgui-dev (>= 5.27.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4),
@@ -29,9 +29,9 @@ Package: libkf5bookmarks-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5bookmarks5 (= ${binary:Version}),
-         libkf5configwidgets-dev (>= 5.26.0~),
-         libkf5iconthemes-dev (>= 5.26.0~),
-         libkf5xmlgui-dev (>= 5.26.0~),
+         libkf5configwidgets-dev (>= 5.27.0~),
+         libkf5iconthemes-dev (>= 5.27.0~),
+         libkf5xmlgui-dev (>= 5.27.0~),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Qt library with support for bookmarks and the XBEL format.
