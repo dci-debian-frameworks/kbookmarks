@@ -47,6 +47,7 @@ Multi-Arch: same
 Depends: libkf5bookmarks-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: keditbookmarks | kde-baseapps-bin
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
