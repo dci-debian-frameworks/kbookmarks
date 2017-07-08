@@ -1,4 +1,4 @@
-kbookmarks (5.35.0-1~1) UNRELEASED; urgency=medium
+kbookmarks (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,6 +7,8 @@ kbookmarks (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Recommend keditbookmarks.
     Thanks to Michael Biebl for pointing to the right direction (Closes: 864410)
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * Add signing key
@@ -15,7 +17,7 @@ kbookmarks (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 13:22:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:44:44 +0200
 
 kbookmarks (5.28.0-1) unstable; urgency=medium
 
