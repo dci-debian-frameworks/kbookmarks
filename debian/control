@@ -53,7 +53,7 @@ Description: Qt library with support for bookmarks and the XBEL format.
  XBEL format.
  .
  Contains development files for kbookmarks.
-Breaks: kio-dev (<< 5.28), libkf5kio-dev (<< 5.41)
+Breaks: kio-dev (<< 5.28), libkf5kio-dev (<< 5.42)
 
 Package: libkf5bookmarks-doc
 Architecture: all
@@ -76,4 +76,9 @@ Recommends: keditbookmarks | kde-baseapps-bin
 Description: Qt library with support for bookmarks and the XBEL format.
  KBookmarks lets you access and manipulate bookmarks stored using the
  XBEL format.
-Breaks: libkf5kiofilewidgets5 (<< 5.41)
+Breaks: kdesignerplugin (<< 5.42),
+        kross (<< 5.42),
+        libkf5kdelibs4support5 (<< 5.42),
+        libkf5kdelibs4support5-bin (<< 5.42),
+        libkf5khtml5 (<< 5.42),
+        libkf5kiofilewidgets5 (<< 5.42),
